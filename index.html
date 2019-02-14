@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Alex Leska || Student || Web Developer</title>
     <link rel="stylesheet" href="css/mystyles.css" />
+    <script type="text/javascript" src="./js/bundle.js"></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -19,10 +20,7 @@
           <h1 class="title is-1 has-text-centered">
             Hi, I'm Alex!
           </h1>
-          <p class="subtitle is-3 has-text-centered">
-            I'm a <strong>Student</strong> and
-            <strong>Web Developer</strong> from Minneapolis, MN!
-          </p>
+          <div class="subtitle is-3 has-text-centered" id="typewriter"></div>
         </div>
       </div>
     </section>
@@ -30,14 +28,13 @@
       <h1 class="title is-2 has-text-centered">Projects</h1>
       <div class="columns">
         <div class="column">
-          <a class="box" href="http://alexleska.me/MazeGenerator/">
+          <a class="box project-listing" href="http://alexleska.me/MazeGenerator/">
             <p class="title is-4 has-text-centered">Maze Generator</p>
             <figure class="image">
               <img class="rounded-corners" src="images/ipadmaze.png" />
             </figure>
             <p class="subtitle has-top-margin">
-              Responsive front-end web application visualizing the recursive
-              backtracking algorithm.
+              Responsive front-end web application visualizing the recursive backtracking algorithm.
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
@@ -62,14 +59,14 @@
           </a>
         </div>
         <div class="column">
-          <a class="box" href="http://alexleska.me/HolidayCard2017/">
+          <a class="box project-listing" href="http://alexleska.me/HolidayCard2017/">
             <p class="title is-4 has-text-centered">Christmas Game</p>
             <figure class="image">
               <img class="rounded-corners" src="images/catchinggame.png" />
             </figure>
             <p class="subtitle has-top-margin">
-              Become a chimney in this javascript game utilizing collision
-              detection and basic physics.
+              Become a chimney in this javascript game utilizing collision detection and basic
+              physics.
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
@@ -94,14 +91,14 @@
           </a>
         </div>
         <div class="column">
-          <a class="box" href="https://github.com/leskaa/PowerUp">
+          <a class="box project-listing" href="https://github.com/leskaa/PowerUp">
             <p class="title is-4 has-text-centered">2018 FRC Code</p>
             <figure class="image">
               <img class="rounded-corners" src="images/robot.png" />
             </figure>
             <p class="subtitle has-top-margin">
-              Created software for FRC Team 2606's robot and created a web based
-              dashboard for drivers.
+              Created software for FRC Team 2606's robot and created a web based dashboard for
+              drivers.
             </p>
             <div class="columns is-mobile">
               <div class="column has-text-centered">
@@ -131,5 +128,32 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <a class="button is-primary" href="https://www.linkedin.com/in/leskaa/">
+            <span class="icon is-medium">
+              <i class="fas fa-lg fa-at"></i>
+            </span>
+          </a>
+          <a class="button is-primary" href="https://github.com/leskaa">
+            <span class="icon is-medium">
+              <i class="fab fa-lg fa-github"></i>
+            </span>
+          </a>
+          <a class="button is-primary" href="https://www.linkedin.com/in/leskaa/">
+            <span class="icon is-medium">
+              <i class="fab fa-lg fa-linkedin-in"></i>
+            </span>
+          </a>
+          <a class="button is-primary" href="https://medium.com/@alexleska">
+            <span class="icon is-medium">
+              <i class="fab fa-lg fa-medium"></i>
+            </span>
+          </a>
+          <p class="copyright"><strong>&copy; 2019 Alex Leska</strong></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
